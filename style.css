@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffdfdf;
+    background-image: url("https://southeastit.com.au/wp-content/uploads/2022/07/business-technology-1024x759.jpg") ;
+    
+}
+
+.hero-section {
+    text-align: center;
+    background-color: #ffa9a9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    transition: transform 0.5s ease;
+}
+
+.additional-content {
+    text-align: center;
+    background-color: #ffdada;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 200px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 0 0 20px;
+}
+
+h2 {
+    color: #007bff;
+    margin: 20px 0 10px;
+}
+
+p {
+    color: #666;
+    font-size: 1.2em;
+    margin: 0 0 30px;
+}
+
+button {
+    background-color: #5900ff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s forwards;  /*poora body fade in*/
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+#join_body_heading{
+    background-color: #007bff;
+    margin-bottom: 500px;
+
+}
